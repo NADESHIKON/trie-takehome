@@ -1,0 +1,26 @@
+{
+  "extends": "tsconfig/base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "."
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./**/*.ts"
+  ]
+}
