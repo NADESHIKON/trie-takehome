@@ -8,7 +8,7 @@
     "start": "cross-env NODE_ENV=production node dist/index.js"
   },
   "dependencies": {
-    "dto": "workspace:*",
+    "@nadeshikon/trie-server-dto": "1.0.0",
     "fastify": "^3.27.4",
     "fastify-raw-body": "^3.2.0",
     "cross-env": "^7.0.3"

@@ -1,6 +1,6 @@
 import { Command } from "func";
 import { list } from "../lib/helper";
-import { ListKeywordReply } from "dto";
+import { ListKeywordReply } from "@nadeshikon/trie-server-dto";
 
 @Command({
     name: "list",

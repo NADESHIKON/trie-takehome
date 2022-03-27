@@ -1,5 +1,5 @@
 {
-  "name": "dto",
+  "name": "@nadeshikon/trie-server-dto",
   "version": "1.0.0",
   "description": "DTO part of trie take-home challenge",
   "main": "index.ts",

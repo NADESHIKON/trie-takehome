@@ -1,6 +1,6 @@
 import { Command, CommandArgsProvider } from "func";
 import { suggest } from "../lib/helper";
-import { SuggestKeywordReply } from "dto";
+import { SuggestKeywordReply } from "@nadeshikon/trie-server-dto";
 
 @Command({
     name: "suggest",

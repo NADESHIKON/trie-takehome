@@ -1,6 +1,6 @@
 import { Command, CommandArgsProvider } from "func";
 import { search } from "../lib/helper";
-import { SearchKeywordReply } from "dto";
+import { SearchKeywordReply } from "@nadeshikon/trie-server-dto";
 
 @Command({
     name: "search",

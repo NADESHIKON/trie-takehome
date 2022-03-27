@@ -1,6 +1,6 @@
 import { Command, CommandArgsProvider } from "func";
 import { remove } from "../lib/helper";
-import { RemoveKeywordReply } from "dto";
+import { RemoveKeywordReply } from "@nadeshikon/trie-server-dto";
 
 @Command({
     name: "remove",

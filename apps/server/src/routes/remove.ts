@@ -1,5 +1,5 @@
 import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
-import { RemoveKeywordReply } from "dto";
+import { RemoveKeywordReply } from "@nadeshikon/trie-server-dto";
 
 const remove = async (fastify: FastifyInstance) => {
     fastify.delete("/", async (request: FastifyRequest, response: FastifyReply) => {

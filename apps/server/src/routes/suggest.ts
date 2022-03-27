@@ -1,5 +1,5 @@
 import { FastifyInstance, RequestGenericInterface } from "fastify";
-import { ListKeywordReply } from "dto";
+import { ListKeywordReply } from "@nadeshikon/trie-server-dto";
 
 interface SuggestInterface extends RequestGenericInterface {
     Params: {

@@ -1,5 +1,5 @@
 import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
-import { ListKeywordReply } from "dto";
+import { ListKeywordReply } from "@nadeshikon/trie-server-dto";
 
 const list = async (fastify: FastifyInstance) => {
     fastify.get("/", async (request: FastifyRequest, response: FastifyReply) => {
