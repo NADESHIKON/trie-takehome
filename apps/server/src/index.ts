@@ -22,7 +22,7 @@ global.trie = new Trie();
 
 if (process.env.NODE_ENV === "production") {
     server
-        .listen(port)
+        .listen(port, "0.0.0.0")
         .then(() => {
             console.log(`Server is currently listening on port ${port}`)
         });
